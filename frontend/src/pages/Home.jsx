@@ -14,7 +14,7 @@ const Home = () => {
       <MultipleService />
       <NewFood />
       <Footer />
-      {/* <SpecialFood /> */}
+      <SpecialFood />
     </>
   );
 };
