@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=" bg-red-500/10 grid  grid-cols-1 md:grid-cols-4  p-10  ">
       {/* Section 1 */}
       <section className=" mb-10 md:mb-0 ">
-        <img src="../../public/Logo.svg" alt="" />
+        <img src="/Logo.svg" alt="" />
       </section>
       {/* Section 2 */}
       <section className=" flex gap-2 flex-col tracking-wide  mb-10 md:mb-0 ">
