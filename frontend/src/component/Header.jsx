@@ -39,7 +39,7 @@ const Header = () => {
 
         {/* Second section */}
         <div className=" w-[100%] mt-10 lg:mt-0 lg:w-[45%] flex items-center justify-center border-0 border-black ">
-          <img src="../../public/banner.png" alt="" className="  w-full lg:px-10 " />
+          <img src="/banner.png" alt="" className="  w-full lg:px-10 " />
         </div>
       </div>
     </div>

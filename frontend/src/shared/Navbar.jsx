@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="bg-white/80 shadow-md fixed top-0 left-0  w-full z-40 ease-in duration-300 backdrop-blur-md">
       <div className=" px-10 md:px-10  py-2  w-full mx-auto ">
         <div className="  flex justify-between items-center ">
-          <img className=" h-14  cursor-pointer" src="/public/logo.svg " alt="Food Hub" />
+          <img className=" h-14  cursor-pointer" src="/Logo.svg " alt="Food Hub" />
 
           <div className="hidden lg:flex  items-center gap-8 ">
             <h3 className=" navbar_section">Today Special</h3>

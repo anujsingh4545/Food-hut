@@ -6,7 +6,7 @@ const Food = ({name, img, rating, price, review}) => {
   return (
     <div className="  rounded-2xl bg-red-500/15  flex items-center justify-center flex-col cursor-pointer m-3 md:m-5  ">
       <div className=" relative m-5 h-56 w-[100%] flex items-center justify-center ">
-        <img src={`../../public/${img}`} alt="" className="  transition-transform  hover:scale-110 duration-100 max-w-[90%] max-h-[100%] " />
+        <img src={`/${img}`} alt="" className="  transition-transform  hover:scale-110 duration-100 max-w-[90%] max-h-[100%] " />
 
         <div className=" absolute top-2 left-5 bg-red-600 rounded-full p-2 hover:bg-red-700 text-white ">
           <FaHeart size={20} />

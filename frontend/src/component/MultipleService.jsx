@@ -5,7 +5,7 @@ const MultipleService = () => {
     <div className=" grid  grid-cols-1 lg:grid-cols-2  mx-10 lg:mx-6  lg:my-10">
       {/* Section1 */}
       <section className=" flex justify-center items-center ">
-        <img src="../../public/banner_2.png" alt="" className=" lg:w-[70%] " />
+        <img src="/banner_2.png" alt="" className=" lg:w-[70%] " />
       </section>
 
       {/* Section 2 */}
