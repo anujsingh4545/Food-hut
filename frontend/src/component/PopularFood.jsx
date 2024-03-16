@@ -1,13 +1,13 @@
-import React from "react";
+import React, {forwardRef} from "react";
 import Food from "./Food";
 
-const NewFood = () => {
+const PopularFood = forwardRef((props, ref) => {
   return (
-    <div className=" border-0 border-black w-full  px-6 ">
+    <div className=" border-0 border-black w-full  px-6 " ref={ref}>
       {/* Section1 */}
       <section className="flex">
         <p className=" inline text-[1.8rem] md:text-[2.3rem] font-bold mx-auto tracking-wide ">
-          New <span className=" text-red-600 ">Foods</span>
+          Popular <span className=" text-red-600 ">Foods</span>
         </p>
       </section>
 
@@ -27,6 +27,6 @@ const NewFood = () => {
       </section>
     </div>
   );
-};
+});
 
-export default NewFood;
+export default PopularFood;

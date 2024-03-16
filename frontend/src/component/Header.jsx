@@ -1,5 +1,6 @@
 import React from "react";
 import {FaSearch, FaPlay} from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,27 +14,33 @@ const Header = () => {
 
           <p className=" text-[1rem] lg:text-[1.5rem] leading-[1.3]">Nestled in the heart of the city, our dining restaurant beckons with a blend of culinary mastery and warm hospitality. Setting the stage for an unforgettable dining experience. </p>
 
-          <div className=" flex items-center justify-between bg-white rounded-full w-full px-4 py-2  shadow-md">
-            <FaSearch size={20} className="cursor-pointer " />
-            <input type="text" placeholder="Search food here ..." className=" outline-none flex-1 px-3 text-lg " />
+          <Link to="/menu" className=" w-full">
+            <div className=" flex items-center justify-between bg-white rounded-full w-full px-4 py-2  shadow-md">
+              <FaSearch size={20} className="cursor-pointer " />
+              <input type="text" placeholder="Search food here ..." className=" outline-none flex-1 px-3 text-lg cursor-pointer " />
 
-            <div className=" rounded-full flex items-center justify-center bg-yellow-500 p-3 cursor-pointer ">
-              <FaSearch size={18} className="cursor-pointer text-white " />
+              <div className=" rounded-full flex items-center justify-center bg-yellow-500 p-3 cursor-pointer ">
+                <FaSearch size={18} className="cursor-pointer text-white " />
+              </div>
             </div>
-          </div>
+          </Link>
 
           {/*  */}
 
-          <section className=" flex items-center justify-between w-full  gap-14">
-            <button className="nav_btn ">explore now</button>
+          <section className=" flex items-center  w-full gap-5 lg:gap-14">
+            <Link to="/menu">
+              <button className="nav_btn ">explore now</button>
+            </Link>
 
-            <div className="  hidden lg:flex items-center justify-between flex-1  cursor-pointer ">
-              <div className=" bg-white rounded-full p-4  shadow-md">
-                <FaPlay size={20} className=" text-red-600" />
+            <a href="https://youtube.com" target="_blank" className="lg:flex-1">
+              <div className="  lg:flex items-center justify-between lg:flex-1  cursor-pointer ">
+                <div className=" bg-white rounded-full p-4  shadow-md">
+                  <FaPlay size={20} className=" text-red-600" />
+                </div>
+
+                <p className=" hidden lg:flex text-xl tracking-wide px-5 font-medium flex-1 cursor-pointer  ">Watch now</p>
               </div>
-
-              <p className=" hidden lg:flex text-xl tracking-wide px-5 font-medium flex-1 cursor-pointer  ">Watch now</p>
-            </div>
+            </a>
           </section>
         </div>
 

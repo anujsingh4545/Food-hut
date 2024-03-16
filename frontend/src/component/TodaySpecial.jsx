@@ -1,14 +1,14 @@
-import React from "react";
+import React, {forwardRef, useEffect} from "react";
 
 import Food from "./Food";
 
-const RecommendedFood = () => {
+const TodaySpecial = ({id}) => {
   return (
-    <div className=" border-0 border-black w-full  px-6 ">
+    <div id={id} className=" border-0 border-black w-full  px-6 ">
       {/* Section1 */}
       <section className="flex">
         <p className=" inline text-[1.8rem] md:text-[2.3rem] font-bold mx-auto tracking-wide ">
-          Recommended <span className=" text-red-600 ">Foods</span>
+          Today <span className=" text-red-600 ">Special</span>
         </p>
       </section>
 
@@ -23,4 +23,4 @@ const RecommendedFood = () => {
   );
 };
 
-export default RecommendedFood;
+export default TodaySpecial;

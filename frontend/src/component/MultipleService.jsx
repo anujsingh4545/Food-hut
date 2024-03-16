@@ -9,7 +9,7 @@ const MultipleService = () => {
       </section>
 
       {/* Section 2 */}
-      <section className=" mb-16 lg:mb-0 flex justify-center  flex-col  lg:pl-10 ">
+      <section className=" mb-16 lg:mb-0 flex justify-center  flex-col  lg:px-10 ">
         <p className="w-full border-0 border-black text-[2rem] lg:text-[2.8rem] font-medium leading-[1] tracking-wide  ">
           We offer <span className=" text-red-600 ">more</span> than just <span className=" text-yellow-500 ">multiple</span> services.
         </p>

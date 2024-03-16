@@ -9,7 +9,7 @@ body {
 }
 
 .navbar_section {
-  @apply text-xl font-medium cursor-pointer tracking-wide;
+  @apply text-xl font-medium cursor-pointer tracking-wide hover:text-red-600;
 }
 
 .nav_btn {
@@ -22,4 +22,8 @@ body {
 
 .footer_sec2 {
   @apply text-[1.1rem] font-normal hover:underline-offset-8 cursor-pointer;
+}
+
+.add_food_field {
+  @apply px-5 py-2 text-[1rem] outline-none tracking-wide   border-[0.1px] border-gray-700/20  rounded-md;
 }
